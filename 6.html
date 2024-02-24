@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <input type="number" id="input_n1"><br>
+    <input type="number" id="input_n2"><br>
+    <button onclick="soma()">Somar</button>
+    <button onclick="subtracao()">Subtrair</button>
+    <button onclick="produto()">Multiplicar</button>
+    <button onclick="divisao()">Dividir</button>
+</body>
+</html>
+
+<script>
+    function soma() {
+        var n1 = Number(input_n1.value)
+	    var n2 = Number(input_n2.value)
+	    var result = n1 + n2
+
+	    alert(`A soma entre ${n1} e ${n2} é ${result}`)
+    }
+
+    function subtracao() {
+        var n1 = Number(input_n1.value)
+	    var n2 = Number(input_n2.value)
+	    var result = n1 - n2
+
+	    alert(`A subtração entre ${n1} e ${n2} é ${result}`)
+    }
+
+    function produto() {
+        var n1 = Number(input_n1.value)
+	    var n2 = Number(input_n2.value)
+	    var result = n1 * n2
+
+	    alert(`O produto entre ${n1} e ${n2} é ${result}`)
+    }
+
+    function divisao() {
+        var n1 = Number(input_n1.value)
+	    var n2 = Number(input_n2.value)
+	    var result = n1 / n2
+
+	    alert(`A razão entre ${n1} e ${n2} é ${result}`)
+    }
+</script>

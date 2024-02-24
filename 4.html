@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GUERREIRO SAYAJIN</h1>
+    Nome do Guerreiro: <input id="nome"><br>
+    Quantidade de Ki: <input id="input_qntdKi"><br>
+    <button onclick="transform()">Ver ki em cada forma</button>
+</body>
+</html>
+
+<script>
+function transform() {
+    var ki = Number(input_qntdKi.value)
+    var kiSS1 = ki * 50
+    var kiSS2 = ki * 100
+
+    alert(`O guerreiro ${nome.value} tem ${kiSS1} de ki na sua forma Super Sayajin`)
+
+    alert(`O guerreiro ${nome.value} tem ${kiSS2} de ki na sua forma Super Sayajin 2`)}
+</script>

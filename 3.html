@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DESCONTO NA PASSAGEM</h1>
+    Valor da Passagem: <input id="input_valorPassagem"><br>
+    Quantidade de Viagens: <input id="input_qntdViagem"><br>
+    <button onclick="passagem()">Ver Economia</button>
+</body>
+</html>
+
+<script>
+    function passagem() {
+        var valorPassagem = Number(input_valorPassagem.value)
+        var qntdViagem = Number(input_qntdViagem.value)
+        var valorFinal = (valorPassagem*qntdViagem)/2
+
+        alert(`Você economizará R$${valorFinal} por mês`)
+    }
+</script>

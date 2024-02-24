@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MEDIA ALUNO</h1>
+    Nome do Aluno: <input id="input_nomeAluno"><br>
+    Nota da Semestral: <input id="input_notaSemest"><br>
+    Nota da Continuada: <input id="input_notaContin"><br>
+    <button onclick="media()">Ver a Média</button>
+</body>
+</html>
+
+<script>
+    function media() {
+	var notaContin = Number(input_notaContin.value) * 0.4
+	var notaSemest = Number(input_notaSemest.value) * 0.6
+	var nomeAluno = input_nomeAluno.value
+	var notaFinal = notaContin + notaSemest
+
+	alert(`A média de ${nomeAluno} será de ${notaFinal}`)
+}
+
+
+</script>
