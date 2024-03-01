@@ -1,0 +1,47 @@
+body {
+    margin:0px
+}
+.card{
+    background-color: #ffbc36;
+    border-width: 5px;
+    border-radius: 50px;
+    border-style: solid;
+    max-width: 600px;
+    margin:10px
+}
+
+.card_box_pfp {
+    margin:20px;
+    margin-bottom: 0px;
+}
+
+.card_pfp{
+    max-width: 100px;
+}
+
+.card_text{
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.card_text h1 {
+    font-family: monospace;
+    word-spacing: -7px;
+
+}
+
+.card_text span {
+    font-style: italic;
+}
+
+.titulo {
+    margin-left: 30px;
+}
+
+.titulo h1 {
+    margin-bottom: 0px;
+}
+
+.titulo p {
+    margin-top: 0px;
+}
