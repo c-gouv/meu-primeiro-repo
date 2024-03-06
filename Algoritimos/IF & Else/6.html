@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Temperatura ambiente: <input type="number" id="input_tempAmbiente"><br>
+    <button onclick="verificarClima()">Verificar clima</button>
+    <div id="resultado"></div>
+</body>
+</html>
+
+<script>
+    var temp = input_tempAmbiente
+
+    function verificarClima() {
+        if (temp < 10) {
+            resultado.innerHTML = `Apropriada p/ conservar alimento <br> <img src="https://www.pfizer.com.br/images/custom/alimentos-funcionais-o-que-sao-e-para-que-servem.jpg">`
+        } else {
+            resultado.innerHTML = `Inapropriada p/ conservar alimento <br> <img src="https://segredosdomundo.r7.com/wp-content/uploads/2021/06/comida-estragada-principais-sinais-de-contaminacao-dos-alimentos-6.jpg">`
+        }}
+</script>

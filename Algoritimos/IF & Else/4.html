@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Frequência do Aluno(0-100): <input type="number" id="input_frequencia"><br>
+    <button onclick="calcularFrequencia()">Analisar frequência</button>
+    <div id="resultado"></div>
+</body>
+</html>
+
+<script>
+    function calcularFrequencia() {
+        var frequencia = input_frequencia.value
+
+        if (frequencia < 50) {
+            resultado.innerHTML = `Esse aluno é: <br> <img src = "https://st3.depositphotos.com/12982378/35274/i/450/depositphotos_352740142-stock-photo-shocked-traveler-hat-backpack-holding.jpg">`
+        } else {
+            resultado.innerHTML = `Esse aluno é: <br> <img src = "https://images.pexels.com/photos/7129007/pexels-photo-7129007.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">`
+        }
+    }
+</script>
